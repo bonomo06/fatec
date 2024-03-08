@@ -1,0 +1,19 @@
+#textocenter{
+    width:90%;
+    margin:0 auto;
+}
+h1{
+    text-align:center;
+}
+#dados-pessoa, #fotopa{
+    float: left;
+}
+#dados-pessoa{
+    width: 70%;
+}
+#fotopa{
+    width: 30%;
+}
+#formacad{
+    clear: left;
+}
