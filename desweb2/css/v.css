@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header{
+    background-color: #dda0dd;
+    width:100%;
+    position:fixed;
+    top: 0;
+    cursor:pointer;
+}
+header h1{
+    text-align: center;
+    font-family: 'Madimi One', 'Tahoma';
+    color: #fff;
+    padding-top: 20px;
+    font-size: 350%;
+}
+nav{
+    width:100%;
+    padding: 20px 0;
+    color: #fffafa;
+    text-align: center;
+}
+nav a{
+    font-family: 'montserrat';
+    text-decoration: none;
+    color:inherit;
+    padding:1% 1% 1% 1%;
+    font-size: 150%;
+}
+nav a:hover{
+    padding-bottom: 0.4em;
+    border-bottom: 0.3em solid #da70d6;
+}
+
