@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header{
+    background-color: #dda0dd;
+    width:100%;
+    position:fixed;
+    top: 0;
+    cursor:pointer;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+}
+header h1{
+    text-align: center;
+    font-family: 'Madimi One', 'Tahoma';
+    color: #fff;
+    padding-top: 20px;
+    font-size: 350%;
+}
+nav{
+    width:100%;
+    padding: 20px 0;
+    color: #fffafa;
+    text-align: center;
+}
+nav a{
+    font-family: 'montserrat';
+    text-decoration: none;
+    color:inherit;
+    padding:1% 1% 1% 1%;
+    font-size: 150%;
+}
+nav a:hover{
+    padding-bottom: 0.4em;
+    border-bottom: 0.3em solid #da70d6;
+}
+main{
+    padding-top: 160px;
+    width: 80%;
+    margin: 0 auto;
+    display: grid; /*serve para separar em grids e não em blocos mais*/
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#VELA{
+    grid-column: 1/4;
+    min-height: 400px;
+    display: flex;
+    padding: 1%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0.5vw #000 rgba(0, 0, 0, 0);
+    border-radius: 0.5em;
+}
+.corpo-vela{
+    width: 38%;
+    padding: 1%;
+}
+.corpo-vela h1{
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+}
+.corpo-vela p{
+    padding: 2%;
+    text-align: justify;
+}
+.corpo-vela a{
+    text-decoration: none;
+    color: inherit;
+}
+#VELA img{
+    width: 50%;
+    text-align: right;
+}
+#velinhas{
+    grid-column: 1/4;
+    display:flex; /*vai agrupar uma ao lado da outra (é aqui que põe a foto*/
+    flex-wrap: wrap; /*pula linha automaticamente quando nescessario*/
+    padding-bottom: 70px;
+}
+article{
+    width: 31.33%;
+    padding: 1%;
+    min-height: 400px;
+}
+#velaum img{
+    width: 300px;
+    height: 400px;
+}
+button{
+    background-color: #ba55d3;
+    border-radius: 12%;
+}
+#veladois img{
+    width: 300px;
+    height: 400px;
+}
+#velatres img{
+    width: 300px;
+    height: 400px;
+}
+footer{
+    background-color: #ba55d3;
+    width:100%;
+    height:50px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+footer p{
+    text-align: center;
+    font-family: 'montserrat';
+    padding: 17px 0;
+}
